@@ -76,7 +76,6 @@ nav div a {
 .logo {
     width:400px;
     /*height:200px;*/
-    background-image:url("Image8.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;;
@@ -97,26 +96,6 @@ nav div a {
     margin:10px;
     color:#DFFEE100;
     text-align: right;
-}
-
-#appear1 {
-    position:absolute;
-    display:none;
-    width:100%;
-    top: 700px;
-    bottom: 0px;
-    background: linear-gradient(to bottom, transparent, white);
-    background-image: url("./pngegg.png");
-    background-position-x: 90%;
-}
-
-#appear2 {
-    position:absolute;
-    display:none;
-    width:100%;
-    top: 700px;
-    bottom: 0px;
-    background-color:#DFFEE1;
 }
 
 .container {

@@ -36,8 +36,7 @@ document.addEventListener('scroll', (event) =>{
     if (delta>=5)
         window.hypPos = delta + window.hypPos;
     var e = document.getElementById("hero");
-    //var app1 = document.getElementById("appear1");
-    //var app2 = document.getElementById("appear2");
+    
     var b = document.getElementById("nav-container");
     var computed = window.getComputedStyle(b, null);
     
