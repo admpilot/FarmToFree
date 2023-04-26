@@ -79,7 +79,7 @@ function myanimate(timeStamp) {
         start=timeStamp;
     }
     const elapsed = timeStamp - start;
-    console.log(elapsed);
+    //console.log(elapsed);
     myelement[0].style.textShadow = `0px 0px ${mission[0].blurAmount}px #DFFEE1, 0px ${mission[0].shadowY}px ${mission[0].blurAmount}px #000`;
     myelement[1].style.textShadow = `0px 0px ${mission[1].blurAmount}px #DFFEE1, 0px ${mission[1].shadowY}px ${mission[1].blurAmount}px #000`;
     myelement[2].style.textShadow = `0px 0px ${mission[2].blurAmount}px #DFFEE1, 0px ${mission[2].shadowY}px ${mission[2].blurAmount}px #000`;
