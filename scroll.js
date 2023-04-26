@@ -21,7 +21,7 @@ window.requestAnimationFrame(myanimate);
 window.addEventListener("load", (event) => {
     
     window.setInterval(function () {ultimateTimer++; 
-        console.log(mission[0].blurAmount);
+        //console.log(mission[0].blurAmount);
         if (ultimateTimer>25) {document.getElementById("mission").style="display:block";};
         if (ultimateTimer>25) {blurRadius(mission[0], -5);};
         if (ultimateTimer>45) {blurRadius(mission[1], -5);};
